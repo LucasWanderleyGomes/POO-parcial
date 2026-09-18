@@ -11,7 +11,7 @@ public class Livro extends ItemAcervo {
 
     @Override
     public double calcularMulta(int diasAtraso) {
-        double valorPorDia = 10.0;
+        double valorPorDia = 0.75;
         return diasAtraso * valorPorDia;
     }
 }
